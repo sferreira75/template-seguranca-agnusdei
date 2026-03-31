@@ -1,0 +1,30 @@
+{
+  "edge_applications": [
+    {
+      "name": "App Segura Agnusdei",
+      "delivery_protocol": "http,https",
+      "origin": [
+        {
+          "name": "Default Origin",
+          "type": "single_origin",
+          "addresses": [{ "address": "httpbin.org" }],
+          "host_header": "httpbin.org"
+        }
+      ],
+      "rules_engine": {
+        "response": {
+          "rules": [
+            {
+              "name": "Protocolo de Seguranca Agnusdei",
+              "criteria": [[{ "variable": "${uri}", "operator": "starts_with", "input_value": "/" }]],
+              "behaviors": [
+                { "name": "add_response_header", "target": "Strict-Transport-Security: max-age=31536000; includeSubDomains" },
+                { "name": "add_response_header", "target": "Content-Security-Policy: default-src 'self';" }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
