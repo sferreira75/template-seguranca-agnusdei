@@ -1,0 +1,43 @@
+{
+  "name": "template-seguranca-agnusdei",
+  "bucket": "template-seguranca-agnusdei",
+  "preset": "astro",
+  "env": "production",
+  "prefix": "20260331025031",
+  "rotate-prefix": true,
+  "not-first-run": true,
+  "function": {
+    "id": 51930,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 46595,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 276513
+  },
+  "application": {
+    "id": 1774927532,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1774922192,
+    "name": "template-seguranca-agnusdei",
+    "domain_name": "cxa2v693h9.map.azionedge.net",
+    "url": "https://cxa2v693h9.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 532562,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
