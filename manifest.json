@@ -1,7 +1,9 @@
 {
-  "name": "Template Segurança Agnusdei",
-  "description": "Upgrade de segurança: Injeta automaticamente headers HSTS e CSP.",
-  "version": "1.0.0",
-  "author": "Sergio Ferreira",
-  "type": "edge-application"
+  "name": "Agnusdei Security Shield",
+  "author": "Sergio Ferreira - Agnusdei",
+  "description": "Proteção de borda com injeção nativa de HSTS e CSP. Ideal para conformidade de segurança e conformidade bancária.",
+  "type": "javascript",
+  "installer": "azion",
+  "tags": ["Security", "Network", "Compliance"],
+  "image": "https://raw.githubusercontent.com/sferreira75/template-seguranca-agnusdei/main/azion/logo.png"
 }
