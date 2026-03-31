@@ -1,0 +1,7 @@
+{
+  "name": "Template Segurança Agnusdei",
+  "description": "Upgrade de segurança: Injeta automaticamente headers HSTS e CSP.",
+  "version": "1.0.0",
+  "author": "Sergio Ferreira",
+  "type": "edge-application"
+}
