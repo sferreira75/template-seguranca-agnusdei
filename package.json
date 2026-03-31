@@ -1,0 +1,9 @@
+{
+  "name": "template-seguranca-agnusdei",
+  "version": "1.0.0",
+  "description": "Template de Segurança Agnusdei",
+  "scripts": {
+    "build": "echo 'Sem build necessario'",
+    "install": "echo 'Sem install necessario'"
+  }
+}
