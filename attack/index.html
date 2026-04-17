@@ -1,1 +1,68 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Test | Suporte Técnico Azion</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace; /* Fonte estilo terminal */
+            background-color: #0a0000;
+            color: #ff4d4d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            border: 1px solid #ff4d4d;
+            background-color: #1a0000;
+            padding: 40px;
+            border-radius: 4px;
+            box-shadow: 0 0 20px rgba(255, 77, 77, 0.2);
+            position: relative;
+        }
+        .warning-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        h1 {
+            margin: 0;
+            font-size: 22px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        p {
+            color: #ff9999;
+            margin-top: 15px;
+        }
+        .glitch-text {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #660000;
+            border-top: 1px solid #330000;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="warning-icon">⚠️</span>
+        <h1>Security Sandbox</h1>
+        <p>URI: <span class="glitch-text">/attack</span></p>
+        <p style="font-size: 14px;">Ambiente destinado a testes de <strong>WAF & Security Rules</strong>.</p>
+        
+        <div class="footer">
+            AZION EDGE COMPUTING - MONITORING ACTIVE
+        </div>
+    </div>
+</body>
+</html>
